@@ -1,4 +1,4 @@
-import SalesChart from "@/components/organisms/SalesChart";
+import SalesChart from "../../components/organisms/SalesChart";
 
 export default function DashboardPage() {
   return (
