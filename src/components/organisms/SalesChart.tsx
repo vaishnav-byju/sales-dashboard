@@ -4,7 +4,8 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, LineChart, Line, P
 import { useState } from 'react';
 import YearFilter from '../atoms/YearFilter';
 import ChartTypeSelector from '../molecules/ChartTypeSelector';
-import { salesData } from '@/data/sales';
+import { salesData } from '../../data/sales';
+
 
 export default function SalesChart() {
   const [minSales, setMinSales] = useState(0);
